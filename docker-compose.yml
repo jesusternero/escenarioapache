@@ -5,7 +5,7 @@ services:
       context: ./
       dockerfile: ./conf/Dockerfile
     ports:
-      - "8181:80"
+      - "8182:80"
     volumes:
       - ./conf/sri.asir4all.ss.conf:/etc/apache2/sites-available/000-default.conf
       - ./conf/claves_digest.txt:/etc/apache2/claves_digest.txt
